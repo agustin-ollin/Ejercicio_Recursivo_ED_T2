@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vista">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="595" height="650"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <foreground color="-4998214"/>
+      <maximumSize width="900" height="800"/>
+      <minimumSize width="518" height="640"/>
+      <preferredSize width="520" height="640"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="82465" class="javax.swing.JLabel" binding="etiqueta_Titulo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Ingresa la cantidad de valores y el número a buscar"/>
+        </properties>
+      </component>
+      <component id="9cc15" class="javax.swing.JLabel" binding="etiqueta_Longitud">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Longitud:"/>
+        </properties>
+      </component>
+      <component id="d16b7" class="javax.swing.JTextField" binding="textField_Longitud">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4998214"/>
+          <caretColor color="-15792371"/>
+          <font style="1"/>
+          <foreground color="-14869219"/>
+        </properties>
+      </component>
+      <component id="11bb3" class="javax.swing.JLabel" binding="etiqueta_Numero">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Buscar:"/>
+        </properties>
+      </component>
+      <component id="8eacf" class="javax.swing.JTextField" binding="textField_Numero">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4998214"/>
+          <caretColor color="-15792371"/>
+          <font style="1"/>
+          <foreground color="-14869219"/>
+        </properties>
+      </component>
+      <component id="62dd5" class="javax.swing.JLabel" binding="etiqueta_Min">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Mínimo:"/>
+        </properties>
+      </component>
+      <component id="a88e2" class="javax.swing.JTextField" binding="textField_Minimo">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4998214"/>
+          <caretColor color="-15792371"/>
+          <font style="1"/>
+          <foreground color="-14869219"/>
+        </properties>
+      </component>
+      <component id="eb13a" class="javax.swing.JLabel" binding="etiqueta_Max">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Máximo:"/>
+        </properties>
+      </component>
+      <component id="633cb" class="javax.swing.JTextField" binding="textField_Maximo">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4998214"/>
+          <caretColor color="-15792371"/>
+          <font style="1"/>
+          <foreground color="-14869219"/>
+        </properties>
+      </component>
+      <component id="76814" class="javax.swing.JLabel" binding="etiqueta_Datos">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Valores de la Lista:"/>
+        </properties>
+      </component>
+      <component id="79fce" class="javax.swing.JLabel" binding="etiqueta_Resultados">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Resultado de Búsqueda:"/>
+        </properties>
+      </component>
+      <component id="3d550" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="10e5e" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="34f1f" class="javax.swing.JButton" binding="boton_RealizarOperacion">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14869219"/>
+          <borderPainted value="false"/>
+          <foreground color="-1"/>
+          <text value="Realizar Operación"/>
+        </properties>
+      </component>
+      <component id="5a48b" class="javax.swing.JButton" binding="boton_BorrarDatos">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14869219"/>
+          <borderPainted value="false"/>
+          <foreground color="-1"/>
+          <text value="Borrar Datos"/>
+        </properties>
+      </component>
+      <hspacer id="8bc14">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="105ef" class="javax.swing.JLabel" binding="etiqueta_Rango">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Dialog"/>
+          <foreground color="-262675"/>
+          <text value="Ingresa el rango de números a generar"/>
+        </properties>
+      </component>
+      <scrollpane id="382a4" binding="scroll_Resultados">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11183788"/>
+          <foreground color="-15792371"/>
+        </properties>
+        <border type="none">
+          <font/>
+          <title-color color="-11183788"/>
+        </border>
+        <children>
+          <component id="4cf5a" class="javax.swing.JTable" binding="tabla_DatosCompletos" custom-create="true">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-7434610"/>
+              <cellSelectionEnabled value="false"/>
+              <columnSelectionAllowed value="false"/>
+              <dragEnabled value="false"/>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <foreground color="-15792371"/>
+              <gridColor color="-14013910"/>
+              <requestFocusEnabled value="true"/>
+              <rowSelectionAllowed value="true"/>
+              <selectionBackground color="-14869219"/>
+              <selectionForeground color="-11183788"/>
+              <updateSelectionOnSort value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="c971b" binding="scroll_Busqueda">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11183788"/>
+          <foreground color="-15792371"/>
+        </properties>
+        <border type="none">
+          <font/>
+          <title-color color="-11183788"/>
+        </border>
+        <children>
+          <component id="51a9f" class="javax.swing.JTable" binding="tabla_Busqueda" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-7434610"/>
+              <foreground color="-15792371"/>
+              <gridColor color="-14013910"/>
+              <selectionBackground color="-14869219"/>
+              <selectionForeground color="-11183788"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="8d28d">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f0885">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="fafde">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="2994f">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="3fa76" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="971ac" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
